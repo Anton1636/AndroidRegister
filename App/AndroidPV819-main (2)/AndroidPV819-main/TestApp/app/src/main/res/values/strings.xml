@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="reminder">Салют</string>
+    <string name="done">вхід</string>
+    <string name="email_label">Пошта</string>
+    <string name="password_label">Пароль</string>
+</resources>
