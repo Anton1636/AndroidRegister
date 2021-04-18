@@ -9,7 +9,6 @@
       "Infrastructure/1.0.0": {
         "dependencies": {
           "App": "1.0.0",
-          "EFContext": "1.0.0",
           "System.Drawing.Common": "5.0.2",
           "System.IdentityModel.Tokens.Jwt": "6.10.2"
         },
@@ -331,7 +330,8 @@
           "EFContext": "1.0.0",
           "FluentValidation.AspNetCore": "10.0.3",
           "MediatR": "9.0.0",
-          "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0"
+          "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
+          "System.Drawing.Common": "5.0.2"
         },
         "runtime": {
           "App.dll": {}
@@ -339,7 +339,7 @@
       },
       "Domain/1.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Identity.Stores": "5.0.5"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5"
         },
         "runtime": {
           "Domain.dll": {}
@@ -349,7 +349,6 @@
         "dependencies": {
           "Domain": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5",
-          "Microsoft.EntityFrameworkCore": "5.0.5",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.5"
         },
         "runtime": {

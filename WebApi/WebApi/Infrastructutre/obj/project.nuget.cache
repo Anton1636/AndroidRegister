@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+eP1EM4nwczi41EhMSK+So+q7wua5QjIOGtVqik1cgSPFhBjfwaDTwnxjojPgbnFhTsf8E2htDcMXDaY+dvOwQ==",
+  "dgSpecHash": "BokHQF0Qv/PoQReL+D6Q6eIbp+MOv/5tDpJp1YsyrdbhxikOxQr7Aq4/mz5hQ++a/uwsWPN5BaVpHEGtnGAqYw==",
   "success": true,
-  "projectFilePath": "D:\\AndroidProject\\WebApi\\WebApi\\Infrastructutre\\Infrastructure.csproj",
+  "projectFilePath": "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\Infrastructutre\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\fluentvalidation\\10.0.3\\fluentvalidation.10.0.3.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.0.3\\fluentvalidation.aspnetcore.10.0.3.nupkg.sha512",

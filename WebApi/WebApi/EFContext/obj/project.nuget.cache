@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vs14ru8TifQcrVwDc2Rc0lAsi8xYPPZb2viC3v/7o8zG3cbadbS4aakO1T3TQymL71RiUTbp9xNdtHjzWsfhDA==",
+  "dgSpecHash": "Xbx4kdgZ+fuW8qz3HbpCaJ82QHTmioZn5leqWxbyMemFq0MwnBVVFhs5OaauI6oahZeMjN+rSvAIwwjIGNEbng==",
   "success": true,
-  "projectFilePath": "D:\\AndroidProject\\WebApi\\WebApi\\EFContext\\EFContext.csproj",
+  "projectFilePath": "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\EFContext\\EFContext.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.5\\microsoft.aspnetcore.cryptography.internal.5.0.5.nupkg.sha512",

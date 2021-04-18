@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AndroidProject\\WebApi\\WebApi\\App\\App.csproj": {}
+    "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\App\\App.csproj": {}
   },
   "projects": {
-    "D:\\AndroidProject\\WebApi\\WebApi\\App\\App.csproj": {
+    "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\App\\App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AndroidProject\\WebApi\\WebApi\\App\\App.csproj",
+        "projectUniqueName": "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\App\\App.csproj",
         "projectName": "App",
-        "projectPath": "D:\\AndroidProject\\WebApi\\WebApi\\App\\App.csproj",
+        "projectPath": "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\App\\App.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\AndroidProject\\WebApi\\WebApi\\App\\obj\\",
+        "outputPath": "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,11 +34,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\AndroidProject\\WebApi\\WebApi\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\AndroidProject\\WebApi\\WebApi\\Domain\\Domain.csproj"
+              "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\Domain\\Domain.csproj"
               },
-              "D:\\AndroidProject\\WebApi\\WebApi\\EFContext\\EFContext.csproj": {
-                "projectPath": "D:\\AndroidProject\\WebApi\\WebApi\\EFContext\\EFContext.csproj"
+              "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\EFContext\\EFContext.csproj": {
+                "projectPath": "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\EFContext\\EFContext.csproj"
               }
             }
           }
@@ -64,6 +64,10 @@
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -85,14 +89,14 @@
         }
       }
     },
-    "D:\\AndroidProject\\WebApi\\WebApi\\Domain\\Domain.csproj": {
+    "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AndroidProject\\WebApi\\WebApi\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\AndroidProject\\WebApi\\WebApi\\Domain\\Domain.csproj",
+        "projectPath": "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\AndroidProject\\WebApi\\WebApi\\Domain\\obj\\",
+        "outputPath": "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -127,7 +131,7 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.Extensions.Identity.Stores": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.5, )"
             }
@@ -151,14 +155,14 @@
         }
       }
     },
-    "D:\\AndroidProject\\WebApi\\WebApi\\EFContext\\EFContext.csproj": {
+    "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\EFContext\\EFContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AndroidProject\\WebApi\\WebApi\\EFContext\\EFContext.csproj",
+        "projectUniqueName": "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\EFContext\\EFContext.csproj",
         "projectName": "EFContext",
-        "projectPath": "D:\\AndroidProject\\WebApi\\WebApi\\EFContext\\EFContext.csproj",
+        "projectPath": "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\EFContext\\EFContext.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\AndroidProject\\WebApi\\WebApi\\EFContext\\obj\\",
+        "outputPath": "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\EFContext\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -181,8 +185,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\AndroidProject\\WebApi\\WebApi\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\AndroidProject\\WebApi\\WebApi\\Domain\\Domain.csproj"
+              "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -198,10 +202,6 @@
           "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.5, )"
             },

@@ -10,3 +10,15 @@ D:\AndroidProject\WebApi\WebApi\Domain\bin\Debug\net5.0\Domain.pdb
 D:\AndroidProject\WebApi\WebApi\Domain\obj\Debug\net5.0\Domain.dll
 D:\AndroidProject\WebApi\WebApi\Domain\obj\Debug\net5.0\ref\Domain.dll
 D:\AndroidProject\WebApi\WebApi\Domain\obj\Debug\net5.0\Domain.pdb
+D:\AndroidProject\AndroidRegister\WebApi\WebApi\Domain\bin\Debug\net5.0\Domain.deps.json
+D:\AndroidProject\AndroidRegister\WebApi\WebApi\Domain\bin\Debug\net5.0\Domain.dll
+D:\AndroidProject\AndroidRegister\WebApi\WebApi\Domain\bin\Debug\net5.0\ref\Domain.dll
+D:\AndroidProject\AndroidRegister\WebApi\WebApi\Domain\bin\Debug\net5.0\Domain.pdb
+D:\AndroidProject\AndroidRegister\WebApi\WebApi\Domain\obj\Debug\net5.0\Domain.csprojAssemblyReference.cache
+D:\AndroidProject\AndroidRegister\WebApi\WebApi\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\AndroidProject\AndroidRegister\WebApi\WebApi\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+D:\AndroidProject\AndroidRegister\WebApi\WebApi\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+D:\AndroidProject\AndroidRegister\WebApi\WebApi\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+D:\AndroidProject\AndroidRegister\WebApi\WebApi\Domain\obj\Debug\net5.0\Domain.dll
+D:\AndroidProject\AndroidRegister\WebApi\WebApi\Domain\obj\Debug\net5.0\ref\Domain.dll
+D:\AndroidProject\AndroidRegister\WebApi\WebApi\Domain\obj\Debug\net5.0\Domain.pdb

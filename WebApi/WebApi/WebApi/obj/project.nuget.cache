@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9MQ4M+AAXlqVz0k+duwlufvPuL89XczSBu4yBpjnITEZ2d8SXQwKDptXUfb0diBlL82tn+L6xgbRFiha6lA6dQ==",
+  "dgSpecHash": "PRTN+MVAS7YNNvsyDFbvNSHO2ASnpzddNMW6OSz1JJvpiZKjQgTew72z3jHP8dflsoh36d4plrYdFweav+3t2A==",
   "success": true,
-  "projectFilePath": "D:\\AndroidProject\\WebApi\\WebApi\\WebApi\\WebApi.csproj",
+  "projectFilePath": "D:\\AndroidProject\\AndroidRegister\\WebApi\\WebApi\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\fluentvalidation\\10.0.3\\fluentvalidation.10.0.3.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.0.3\\fluentvalidation.aspnetcore.10.0.3.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.0.3\\fluentvalidation.dependencyinjectionextensions.10.0.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\fluentvalidation\\10.0.4\\fluentvalidation.10.0.4.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.0.4\\fluentvalidation.aspnetcore.10.0.4.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.0.4\\fluentvalidation.dependencyinjectionextensions.10.0.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",

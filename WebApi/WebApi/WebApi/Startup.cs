@@ -10,10 +10,13 @@ using Infrastructure.Services;
 using MediatR;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -40,29 +43,27 @@ namespace WebApi
         }
 
         public IConfiguration Configuration { get; }
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+
+        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
 
-
-
-
             services.AddDbContext<EFDataContext>(opt => opt
                 .UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
-            //services.AddDbContext<UserDBContext>(options => options.UseInMemoryDatabase(databaseName: "Logins"));
+            services.AddDbContext<UserDBContext>(options => options.UseInMemoryDatabase(databaseName: "Logins"));
 
             services.AddMediatR(typeof(RegistrationHandler).Assembly);
 
-            //services.AddMvc(option =>
-            //{
-            //    option.EnableEndpointRouting = false;
-            //    var policy = new AuthorizationPolicyBuilder()
-            //        .RequireAuthenticatedUser()
-            //        .Build();
-            //    option.Filters.Add(new AuthorizeFilter(policy));
-            //})
-            //    .SetCompatibilityVersion(CompatibilityVersion.Latest)
-            //    .AddFluentValidation();
+            services.AddMvc(option =>
+            {
+                option.EnableEndpointRouting = false;
+                var policy = new AuthorizationPolicyBuilder()
+                    .RequireAuthenticatedUser()
+                    .Build();
+                option.Filters.Add(new AuthorizeFilter(policy));
+            })
+                .SetCompatibilityVersion(CompatibilityVersion.Latest)
+                .AddFluentValidation();
 
             services.AddTransient<IValidator<RegistrationCommand>, RegistrationValidation>();
             services.AddTransient<IValidator<LoginCommand>, LoginValidation>();
@@ -76,7 +77,10 @@ namespace WebApi
                 .AddEntityFrameworkStores<EFDataContext>()
                 .AddDefaultTokenProviders();
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["TokenKey"]));
+
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["TokenKey"])); ;
+
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -116,47 +120,6 @@ namespace WebApi
                         },new List<string>()
                     }
                 });
-            });
-
-            services.AddControllers()
-                .AddFluentValidation();
-
-        }
-
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Iphone.WebApi v1"));
-            }
-
-            app.UseMiddleware<ErrorHandlingMiddleware>();
-
-            app.UseStaticFiles();
-
-            string imagesFolder = Configuration.GetValue<string>("ServerFolders:images");
-            var dir = Path.Combine(Directory.GetCurrentDirectory(), imagesFolder);
-            if (!Directory.Exists(dir))
-                Directory.CreateDirectory(dir);
-
-            app.UseStaticFiles(new StaticFileOptions
-            {
-                FileProvider = new PhysicalFileProvider(dir),
-                RequestPath = "/images"
-            });
-            //app.UseHttpsRedirection();
-
-            app.UseRouting();
-
-            app.UseAuthentication();
-            app.UseAuthorization();
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
             });
         }
     }
