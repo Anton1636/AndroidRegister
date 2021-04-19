@@ -1,8 +1,8 @@
 package com.example.homeproject.network.profile;
 
-import com.example.testapp.constants.Urls;
-import com.example.testapp.network.account.ApiAccount;
-import com.example.testapp.network.interceptors.JWTInterceptor;
+import com.example.homeproject.constants.Urls;
+import com.example.homeproject.network.account.ApiAccount;
+import com.example.homeproject.network.interceptors.JWTInterceptor;
 
 import java.util.concurrent.TimeUnit;
 

@@ -9,7 +9,7 @@ import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.NetworkImageView;
 import com.android.volley.toolbox.Volley;
-import com.example.testapp.application.HomeApplication;
+import com.example.homeproject.application.HomeApplication;
 
 public class ImageRequester {
     private static ImageRequester instance = null;

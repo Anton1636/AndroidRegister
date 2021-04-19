@@ -1,6 +1,6 @@
 package com.example.homeproject.network.account;
 
-import com.example.testapp.constants.Urls;
+import com.example.homeproject.constants.Urls;
 
 import java.util.concurrent.TimeUnit;
 

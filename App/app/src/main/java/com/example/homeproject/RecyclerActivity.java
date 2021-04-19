@@ -6,12 +6,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
-import com.example.testapp.constants.Urls;
-import com.example.testapp.dto.profile.ProfileResultDTO;
-import com.example.testapp.myrecycler.CustomAdapter;
-import com.example.testapp.myrecycler.Model;
-import com.example.testapp.network.profile.ApiWebService;
-import com.example.testapp.utils.CommonUtils;
+import com.example.homeproject.constants.Urls;
+import com.example.homeproject.dto.profile.ProfileResultDTO;
+import com.example.homeproject.myrecycler.CustomAdapter;
+import com.example.homeproject.myrecycler.Model;
+import com.example.homeproject.network.profile.ApiWebService;
+import com.example.homeproject.utils.CommonUtils;
 
 import java.util.List;
 

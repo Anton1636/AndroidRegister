@@ -8,7 +8,7 @@ import android.util.Log;
 
 import androidx.appcompat.app.AppCompatDelegate;
 
-import com.example.testapp.security.JwtSecurityService;
+import com.example.homeproject.security.JwtSecurityService;
 
 public class HomeApplication extends Application implements JwtSecurityService {
     private static HomeApplication instance;

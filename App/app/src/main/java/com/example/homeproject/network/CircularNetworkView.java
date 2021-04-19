@@ -13,7 +13,7 @@ import android.util.AttributeSet;
 
 import com.android.volley.toolbox.NetworkImageView;
 
-public class CircularNetworkImageView extends NetworkImageView {
+class CircularNetworkImageView extends NetworkImageView {
     Context mContext;
 
     public CircularNetworkImageView(Context context) {

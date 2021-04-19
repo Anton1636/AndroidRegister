@@ -9,13 +9,13 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.android.volley.toolbox.NetworkImageView;
-import com.example.testapp.application.HomeApplication;
-import com.example.testapp.constants.Urls;
-import com.example.testapp.dto.profile.ProfileResultDTO;
-import com.example.testapp.network.ImageRequester;
-import com.example.testapp.network.profile.ApiWebService;
-import com.example.testapp.security.JwtSecurityService;
-import com.example.testapp.utils.CommonUtils;
+import com.example.homeproject.application.HomeApplication;
+import com.example.homeproject.constants.Urls;
+import com.example.homeproject.dto.profile.ProfileResultDTO;
+import com.example.homeproject.network.ImageRequester;
+import com.example.homeproject.network.profile.ApiWebService;
+import com.example.homeproject.security.JwtSecurityService;
+import com.example.homeproject.utils.CommonUtils;
 import com.google.gson.Gson;
 
 import retrofit2.Call;

@@ -1,7 +1,7 @@
 package com.example.homeproject.network.profile;
 
-import com.example.testapp.dto.profile.ProfileResultDTO;
-import com.example.testapp.dto.profile.UploadImageDto;
+import com.example.homeproject.dto.profile.ProfileResultDTO;
+import com.example.homeproject.dto.profile.UploadImageDto;
 
 import java.util.List;
 

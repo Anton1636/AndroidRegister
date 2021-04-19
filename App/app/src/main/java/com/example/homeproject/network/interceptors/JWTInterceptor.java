@@ -1,7 +1,7 @@
 package com.example.homeproject.network.interceptors;
 
-import com.example.testapp.application.HomeApplication;
-import com.example.testapp.security.JwtSecurityService;
+import com.example.homeproject.application.HomeApplication;
+import com.example.homeproject.security.JwtSecurityService;
 import java.io.IOException;
 import okhttp3.Interceptor;
 import okhttp3.Request;

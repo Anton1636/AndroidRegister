@@ -4,7 +4,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import com.example.testapp.R;
+import com.example.homeproject.R;
 
 public final class CommonUtils {
     private static final String TAG = CommonUtils.class.getSimpleName();

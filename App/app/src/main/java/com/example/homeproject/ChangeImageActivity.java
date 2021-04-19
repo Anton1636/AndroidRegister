@@ -11,11 +11,11 @@ import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 
-import com.example.testapp.constants.Urls;
-import com.example.testapp.dto.profile.ProfileResultDTO;
-import com.example.testapp.dto.profile.UploadImageDto;
-import com.example.testapp.network.profile.ApiWebService;
-import com.example.testapp.utils.CommonUtils;
+import com.example.homeproject.constants.Urls;
+import com.example.homeproject.dto.profile.ProfileResultDTO;
+import com.example.homeproject.dto.profile.UploadImageDto;
+import com.example.homeproject.network.profile.ApiWebService;
+import com.example.homeproject.utils.CommonUtils;
 import com.oginotihiro.cropview.CropView;
 
 import java.io.ByteArrayOutputStream;
